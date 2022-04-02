@@ -6,10 +6,6 @@
     --ms_text-grey: #747474;
 }
 
-html{
-    font-size: 100%;
-}
-
 /* FONT */
 
 body{
@@ -18,8 +14,12 @@ body{
     background-color: aqua;
 }
 
+html{
+    font-size: 100%;
+}
+
 /* COMMON */
-/* introduction PS5 */
+/* introduction PS5 section*/
 .ms_title-text h2{
     font-weight: 550;
 }
@@ -75,7 +75,7 @@ img{
     background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;
     background-position: center;
-    padding: 20rem 0 5rem;
+    padding: 18rem 0 5rem;
 }
 
 .ms_returnal-text img{
@@ -92,7 +92,7 @@ img{
     border-radius: 10px;
 }
 
-/* introduction PS5 */
+/* introduction PS5 section*/
 .ms_introduction-ps5 a{
     text-transform: uppercase;
     font-weight: 600;
@@ -101,9 +101,9 @@ img{
  
 }
 
-/* console PS5 */
+/* console PS5 section*/
 .ms_console-ps5 a{
     color: var(--ms_white-text);
 }
 
-/* PS5 gadget list */
+/* PS5 gadget list section*/
