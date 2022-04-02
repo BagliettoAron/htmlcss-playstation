@@ -1,6 +1,9 @@
 /* ROOT */
 :root{
     --ms_grey-color: #1f1f1f;
+    --ms_white-text: white;
+    --ms_play-has-no-limits-color: #0072ce;
+    --ms_text-grey: #747474;
 }
 
 html{
@@ -15,18 +18,35 @@ body{
     background-color: aqua;
 }
 
+/* COMMON */
+/* introduction PS5 */
+.ms_title-text h2{
+    font-weight: 550;
+}
+
+.ms_title-text p{
+    color:var(--ms_text-grey);
+    font-weight: 550;
+}
+
 /* RESET */
+
 li{
     list-style: none ;
 }
 
+img{
+    width: 100%;
+}
+
 /* HEADER */
 
-/* headER top */
+/* header top */
 .ms_header-top img{
     width: 5rem;
 }
 
+/* navbar */
 .ms_nav-link a{
     font-weight: 600;
     color: black;
@@ -45,3 +65,45 @@ li{
 .ms_lens-style img{
     width: 2rem;
 }
+
+/* MAIN */
+
+/* jumbotron returnal */
+.ms_jumbotron-returnal{
+    margin-top: 8rem;
+    background-color: #010202;
+    background-image: url(../img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20rem 0 5rem;
+}
+
+.ms_returnal-text img{
+    width: 12rem;
+}
+
+.ms_returnal-text{
+    color: var(--ms_white-text);
+    font-weight: 600;
+}
+
+/* game cards section */
+.ms_game-cards img{
+    border-radius: 10px;
+}
+
+/* introduction PS5 */
+.ms_introduction-ps5 a{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--ms_play-has-no-limits-color);
+    text-decoration: none;
+ 
+}
+
+/* console PS5 */
+.ms_console-ps5 a{
+    color: var(--ms_white-text);
+}
+
+/* PS5 gadget list */
