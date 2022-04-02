@@ -1,0 +1,47 @@
+/* ROOT */
+:root{
+    --ms_grey-color: #1f1f1f;
+}
+
+html{
+    font-size: 100%;
+}
+
+/* FONT */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    /* TEST */
+    background-color: aqua;
+}
+
+/* RESET */
+li{
+    list-style: none ;
+}
+
+/* HEADER */
+
+/* headER top */
+.ms_header-top img{
+    width: 5rem;
+}
+
+.ms_nav-link a{
+    font-weight: 600;
+    color: black;
+}
+
+.ms_nav-link img{
+    width: 0.6rem;
+    margin-left: .3rem;
+    vertical-align: middle;
+}
+
+.ms_btn-grey .btn{
+    background-color: var(--ms_grey-color);
+}
+
+.ms_lens-style img{
+    width: 2rem;
+}
