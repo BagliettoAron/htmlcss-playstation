@@ -19,6 +19,7 @@ html{
 }
 
 /* COMMON */
+
 /* title format */
 .ms_title-text h2{
     font-weight: 550;
@@ -27,6 +28,13 @@ html{
 .ms_title-text p{
     color:var(--ms_text-grey);
     font-weight: 550;
+}
+
+/* jumbotron */
+.ms_jumbotron{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 /* RESET */
@@ -70,19 +78,17 @@ img{
 
 /* jumbotron returnal */
 .ms_jumbotron-returnal{
-    margin-top: 8rem;
-    background-color: #010202;
     background-image: url(../img/jumbo-bg.png);
-    background-repeat: no-repeat;
-    background-position: center;
+    margin-top: 8rem;
     padding: 18rem 0 5rem;
 }
 
-.ms_returnal-text img{
+
+.ms_jumbotron-text img{
     width: 12rem;
 }
 
-.ms_returnal-text{
+.ms_jumbotron-text{
     color: var(--ms_white-text);
     font-weight: 600;
 }
@@ -107,3 +113,13 @@ img{
 }
 
 /* PS5 gadget list section*/
+.ms_ps5-gadget .ms_box-gadget{
+    border-bottom: 3px solid transparent;
+}
+
+/* jumbotron it takes two */
+.ms_jumbotron-it-takes-two{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    padding: 7rem 0 3rem;
+}
+
