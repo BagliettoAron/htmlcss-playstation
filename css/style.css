@@ -39,14 +39,7 @@ html{
     background-size: cover;
 }
 
-/* explore ps5 */
-.ms_explore-ps4 .card-title{
-    font-weight: 550;
-}
-
-.ms_explore-ps4 .card-body{
-    text-align: left;
-}
+/* explore ps4 */
 
 /* RESET */
 
@@ -146,7 +139,7 @@ img{
     font-weight: 550;
 }
 
-/* explore PS5 */
+/* explore PS4 */
 .ms_ps4-reg-mark{
     font-size: .9rem;
     position: relative;
@@ -154,10 +147,17 @@ img{
     right: 8px;
 }
 
+.ms_explore-ps4 .card-title{
+    font-weight: 550;
+}
+
+.ms_explore-ps4 .card-body{
+    text-align: left;
+}
+
 /* jumbotron play station plus */
 .ms_jumbotron-ps-plus{
     background-color:var(--ms_light-grey) ;
-    padding: 3rem 0;
 }
 
 .ms_jumbotron-ps-plus .ms_jumbotron-text{
@@ -170,8 +170,15 @@ img{
 
 /* media query */
 @media all and (max-width: 768px){
-.ms_plus-monthly{
-    display: none;
+    .ms_plus-monthly{
+        display: none;
+    }
 }
 
-/* new content on PS store */
+
+
+/* new discounts on PS store */
+.ms_new-discounts-store .ms_discount-text{
+    color: var(--ms_text-grey);
+
+}
