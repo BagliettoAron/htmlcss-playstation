@@ -1,9 +1,11 @@
 /* ROOT */
 :root{
     --ms_grey-color: #1f1f1f;
+    --ms_light-grey:#bebcbb;
     --ms_white-text: white;
-    --ms_play-has-no-limits-color: #0072ce;
     --ms_text-grey: #747474;
+    --ms_play-has-no-limits-color: #0072ce;
+    --ms_blue-text-button:#2d64e6;
 }
 
 /* FONT */
@@ -35,6 +37,15 @@ html{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+/* explore ps5 */
+.ms_explore-ps4 .card-title{
+    font-weight: 550;
+}
+
+.ms_explore-ps4 .card-body{
+    text-align: left;
 }
 
 /* RESET */
@@ -83,7 +94,6 @@ img{
     padding: 18rem 0 5rem;
 }
 
-
 .ms_jumbotron-text img{
     width: 12rem;
 }
@@ -104,7 +114,6 @@ img{
     font-weight: 600;
     color: var(--ms_play-has-no-limits-color);
     text-decoration: none;
- 
 }
 
 /* console PS5 section*/
@@ -117,9 +126,52 @@ img{
     border-bottom: 3px solid transparent;
 }
 
-/* jumbotron it takes two */
+/* jumbotron it takes two section*/
 .ms_jumbotron-it-takes-two{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     padding: 7rem 0 3rem;
 }
 
+/* new releases section */
+.ms_new-releases{
+    background-color: var(--ms_grey-color);
+    color: var(--ms_white-text);
+}
+
+.ms_new-releases img{
+    border-radius: 10px;
+}
+
+.ms_card-text{
+    font-weight: 550;
+}
+
+/* explore PS5 */
+.ms_ps4-reg-mark{
+    font-size: .9rem;
+    position: relative;
+    bottom: 8px;
+    right: 8px;
+}
+
+/* jumbotron play station plus */
+.ms_jumbotron-ps-plus{
+    background-color:var(--ms_light-grey) ;
+    padding: 3rem 0;
+}
+
+.ms_jumbotron-ps-plus .ms_jumbotron-text{
+    color: black;
+}
+
+.ms_jumbotron-ps-plus .ms_jumbotron-text a{
+    color:var(--ms_blue-text-button);
+}
+
+/* media query */
+@media all and (max-width: 768px){
+.ms_plus-monthly{
+    display: none;
+}
+
+/* new content on PS store */
