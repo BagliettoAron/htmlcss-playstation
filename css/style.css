@@ -8,6 +8,7 @@
     --ms_text-grey: #747474;
     --ms_play-has-no-limits-color: #0072ce;
     --ms_blue-text-button:#2d64e6;
+    --ms_blue-border-link:#0072ce
 }
 
 /* FONT */
@@ -94,16 +95,27 @@ img{
     font-weight: 600;
 }
 
+FIXME:
+.ms_jumbotron-text .btn{
+    border: 2px solid black;
+}
+
 /* game cards section */
 .ms_game-cards img{
     border-radius: 10px;
+    border: 3px solid transparent;
 }
+
+.ms_game-cards img:hover{
+    border: 3px solid var(--ms_blue-border-link);
+}
+
 
 /* introduction PS5 section*/
 .ms_introduction-ps5 a{
     text-transform: uppercase;
     font-weight: 600;
-    color: var(--ms_play-has-no-limits-color);
+    color: var(--ms_blue-border-link);
     text-decoration: none;
 }
 
@@ -115,6 +127,25 @@ img{
 /* PS5 gadget list section*/
 .ms_ps5-gadget .ms_box-gadget{
     border-bottom: 3px solid transparent;
+}
+
+.ms_box-gadget{
+    opacity: 0.4;
+}
+
+.ms_box-gadget:hover{
+    opacity: 1;
+}
+
+.ms_ps5-gadget .col:first-child{
+    border-bottom: 3px solid var(--ms_blue-border-link);
+}
+
+.ms_ps5-gadget .col:nth-child(2):hover,
+.ms_ps5-gadget .col:nth-child(3):hover,
+.ms_ps5-gadget .col:nth-child(4):hover,
+.ms_ps5-gadget .col:nth-child(5):hover{
+    border-bottom: 3px solid var(--ms_blue-border-link);
 }
 
 /* jumbotron it takes two section*/
@@ -153,6 +184,10 @@ img{
     text-align: left;
 }
 
+.ms_explore-ps4 .card{
+    border: none;
+}
+
 /* jumbotron play station plus */
 .ms_jumbotron-ps-plus{
     background-color:var(--ms_light-grey) ;
@@ -184,7 +219,7 @@ img{
 }
 
 .ms_jumbotron-ps-now .btn-light{
-    background-color: white;
+    background-color: var(--ms_white-text);
 }
 
 /* FOOTER */
@@ -203,7 +238,7 @@ img{
     position: absolute;
     bottom: 20px;
     right: 20px;
-    color: white;
+    color: var(--ms_white-text);
 }
 
 .ms_play-logo-region img{
@@ -212,11 +247,11 @@ img{
 }
 
 .ms_play-logo-region{
-    color: white;
+    color: var(--ms_white-text);
 }
 
 .ms_footer-lists a{
-    color: white;
+    color: var(--ms_white-text);
     text-decoration: none;
 }
 
@@ -226,10 +261,10 @@ img{
 }
 
 .ms_bottom-footer-text {
-    color: white;
-    padding-bottom: 10rem;
+    color: var(--ms_white-text);
+    /* padding-bottom: 5rem; */
 }
 
 .ms_bottom-footer-text a{
-    color: white;
+    color: var(--ms_white-text);
 }
