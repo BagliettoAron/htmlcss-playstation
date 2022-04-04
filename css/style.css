@@ -2,6 +2,8 @@
 :root{
     --ms_grey-color: #1f1f1f;
     --ms_light-grey:#bebcbb;
+    --ms_dark-blue:#161c3b;
+    --ms_footer-bg:#00439c;
     --ms_white-text: white;
     --ms_text-grey: #747474;
     --ms_play-has-no-limits-color: #0072ce;
@@ -175,10 +177,44 @@ img{
     }
 }
 
-
-
 /* new discounts on PS store */
 .ms_new-discounts-store .ms_discount-text{
     color: var(--ms_text-grey);
+}
 
+/* jumbotron play station now */
+.ms_jumbotron-ps-now{
+    background-color:var(--ms_dark-blue) ;
+}
+
+.ms_jumbotron-ps-now .btn-light{
+    background-color: white;
+}
+
+/* FOOTER */
+
+/* footer top */
+.ms_footer-bg{
+    background-color:var(--ms_footer-bg) ;
+}
+
+.ms_play-logo{
+    width: 10rem;
+    position: relative;
+}
+
+.ms_play-logo-symbol{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+}
+
+.ms_play-logo-region img{
+    width: 2rem;
+    padding-right: .5rem;
+}
+
+.ms_play-logo-region{
+    color: white;
 }
