@@ -95,10 +95,17 @@ img{
     font-weight: 600;
 }
 
-FIXME:
-.ms_jumbotron-text .btn{
-    border: 2px solid black;
+.ms_jumbotron-text .btn-danger{
+    border: 3px solid transparent;
+    outline: 3px solid transparent;
 }
+
+.ms_jumbotron-text .btn-danger:hover{
+    border: 3px solid black;
+    outline: 3px solid #dc3545;
+}
+
+
 
 /* game cards section */
 .ms_game-cards img{
